@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap)
 
 // Color
-$color-primary: #44392D
-$color-secondary: #B28D29
+$color-primary: #253746
+$color-secondary: #802145
 
 $color-black: #000
 $color-white: #ffffff
@@ -47,3 +47,32 @@ body
   line-height: 1.4
   font-size: $text-size
   font-weight: 700
+
+hr
+  width: 50%
+  border: 1px solid
+  margin-bottom: 4rem
+
+  @media only screen and (max-width: $bp-small)
+    width: 90%
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+  -webkit-appearance: none
+  margin: 0
+
+input[type=number] 
+  -moz-appearance: textfield
+
+input:disabled
+  opacity: 1
+  color: $color-primary
+  background-color: rgba($color-black, .05) 
+
+button:disabled
+  opacity: 0.5   
+
+@media print 
+  #btn-pdf,
+  #btn-clean
+    display: none
