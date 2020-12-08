@@ -5,11 +5,316 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="data/lotes.json"></script>
+    <script src="js/helpers.js"></script>
+    <script src="js/tables.js"></script>
+    <script src="js/financial-projection.js"></script>
+    <script src="js/actions.js"></script>
+    <script src="js/index.js"></script>
 
     <title>Santa Helena</title>
   </head>
   <body>
-    <h1>Cotizador Santa Helena</h1>
+    <div id="container-site" class="container">
+      <div id="logos" class="header-logos">
+        <img
+          src="assets/satan-helena-logo.png"
+          alt="santa-helena-logo"
+          class="img--santa-helena"
+        />
+        <img src="assets/carza-logo.png" alt="carza-logo" class="img--carza" />
+      </div>
+
+      <hr />
+
+      <div id="info" class="header-info">
+        <div class="header-info__group header-info__group--left">
+          <div class="header-info__row">
+            <label class="header-info__label"> Fecha: </label>
+            <label
+              id="date"
+              class="hader-info__label header-info__label--right"
+            ></label>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Asesor Inmobliario: </label>
+            <label
+              id="broker"
+              class="hader-info__label header-info__label--right"
+            >
+            </label>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Cliente: </label>
+            <label
+              id="client"
+              class="hader-info__label header-info__label--right"
+            ></label>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Corre electrónico: </label>
+            <label
+              id="email"
+              class="hader-info__label header-info__label--right"
+            ></label>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Teléfono: </label>
+            <label
+              id="tel"
+              class="hader-info__label header-info__label--right"
+            ></label>
+          </div>
+        </div>
+
+        <div class="header-info__group header-info__group--right">
+          <div class="header-info__row">
+            <label class="header-info__label"> Lote: </label>
+            <select
+              name="lote"
+              id="lotes"
+              class="header-info__label header-info__label--select header-info__label--right"
+              onchange="onSlotChange(this.value)"
+            ></select>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Área Total: </label>
+            <label
+              id="total_area"
+              class="hader-info__label header-info__label--right"
+            >
+            </label>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Precio Lista: </label>
+            <label
+              id="price"
+              class="hader-info__label header-info__label--right"
+            >
+            </label>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Precio m<sup>2</sup>: </label>
+            <label
+              id="m2-price"
+              class="hader-info__label header-info__label--right"
+            >
+            </label>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Frente</label>
+            <label
+              id="front"
+              class="hader-info__label header-info__label--right"
+            >
+            </label>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Fondo: </label>
+            <label
+              id="deep"
+              class="hader-info__label header-info__label--right"
+            >
+            </label>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Estatus: </label>
+            <label
+              id="status"
+              class="hader-info__label header-info__label--right"
+            >
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div id="unit-info" class="unit-form">
+        <div class="unit-form__row">
+          <input
+            id="down-payment-percentage"
+            class="unit-form__input unit-form__input--percentage"
+            value="100"
+            min="5"
+            max="100"
+            type="number"
+            onblur="onDownPaymentPercentageBlur()"
+          />
+          <p>&nbsp;%</p>
+          <label class="unit-form__label"> Enganche </label>
+          <input
+            id="down-payment-price"
+            class="unit-form__input unit-form__input--price"
+            onblur="onDownPaymentPriceBlur()"
+          />
+        </div>
+
+        <div class="unit-form__row">
+          <input
+            id="monthly-percentage"
+            class="unit-form__input unit-form__input--percentage"
+            value="15"
+            min="15"
+            max="100"
+            type="number"
+            onblur="onMonthlyPercentageBlur()"
+          />
+          <p>&nbsp;%</p>
+          <label class="unit-form__label"> Mensualidad </label>
+          <input
+            id="monthly-price"
+            class="unit-form__input unit-form__input--price"
+            onblur="onMonthlyPriceBlur()"
+          />
+        </div>
+
+        <div class="unit-form__row">
+          <input
+            id="monthly-payments"
+            class="unit-form__input unit-form__input--percentage"
+            value="11"
+            disabled
+          />
+          <label class="unit-form__label unit-form__label--monthly-payments">
+            Mensualidades
+          </label>
+          <input
+            id="monthly-payments-price"
+            class="unit-form__input unit-form__input--price"
+            onblur="onMonthlyPaymentsPriceBlur()"
+          />
+        </div>
+
+        <div class="unit-form__row">
+          <input
+            id="deed-percentage"
+            class="unit-form__input unit-form__input--percentage"
+            disabled
+          />
+          <p>&nbsp;%</p>
+          <label class="unit-form__label"> Escrituración </label>
+          <input
+            id="deed-price"
+            class="unit-form__input unit-form__input--price"
+            type="text"
+            disabled
+          />
+        </div>
+
+        <div class="unit-form__row">
+          <input
+            id="discount-percentage"
+            class="unit-form__input unit-form__input--percentage"
+            disabled
+          />
+          <p>&nbsp;%</p>
+          <label class="unit-form__label"> Descuento </label>
+          <input
+            id="discount-price"
+            class="unit-form__input unit-form__input--price"
+            disabled
+          />
+        </div>
+
+        <div class="clean-button-container">
+          <button
+            id="btn-clean"
+            class="button button--secondary"
+            onclick="cleanForm()"
+          >
+            Limpiar
+          </button>
+        </div>
+
+        <div class="unit-form__row unit-form__row--end">
+          <div class="unit-form__row-end">
+            <label for="final-price" class="unit-form__label">
+              Precio Final:
+            </label>
+            <input
+              id="final-price"
+              class="unit-form__input unit-form__input--price"
+              disabled
+            />
+          </div>
+
+          <div class="unit-form__row-end">
+            <label for="final-m2-price" class="unit-form__label">
+              Precio m<sup>2</sup> Final:
+            </label>
+            <input
+              id="final-m2-price"
+              class="unit-form__input unit-form__input--price"
+              disabled
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="down-payments-table-container" class="table-container">
+        <h3>PLAN DE PAGOS DEL ENGANCHE</h3>
+        <table id="down-payments-table" class="table"></table>
+      </div>
+
+      <div id="terms-info" class="terms">
+        <p class="terms__p">
+          *Vigencia de 15 dìas a partir de la fecha de cotización.
+        </p>
+        <p class="terms__p">*Los precios no incluyen gastos notariales.</p>
+        <p class="terms__p">
+          *Los valores arriba señalados son informativos y pueden varíar sin
+          previo avíso.
+        </p>
+        <p class="terms__p">
+          *La unidad se apartará con un mínimo de MXP$25,000.00
+        </p>
+      </div>
+    </div>
+
+    <div id="popup" class="popup">
+      <div class="popup__container">
+        <form action="javascript:enter()">
+          <div class="popup__group">
+            <label class="popup__label"> Asesor Inmobiliario: </label>
+            <input id="broker-enter" type="text" class="popup__input" />
+          </div>
+          <div class="popup__group">
+            <label class="popup__label"> Cliente: </label>
+            <input id="client-enter" type="text" class="popup__input" />
+          </div>
+          <div class="popup__group">
+            <label class="popup__label"> Correo electrónico: </label>
+            <input id="email-enter" type="email" class="popup__input" />
+          </div>
+          <div class="popup__group">
+            <label class="popup__label"> Teléfono: </label>
+            <input id="tel-enter" type="tel" class="popup__input" />
+          </div>
+          <div class="popup__group">
+            <label class="popup__label"> Contraseña: </label>
+            <input id="password-enter" type="password" class="popup__input" />
+          </div>
+
+          <div id="error-msg" class="popup__error-msg"></div>
+
+          <div class="popup__button">
+            <input
+              type="submit"
+              value="Entrar"
+              style="-webkit-appearance: none"
+              class="button button--secondary"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="spinner" class="loading">
+      <div class="loading__img"></div>
+    </div>
   </body>
 </html>
