@@ -1,5 +1,6 @@
 const MONTHLY_PAYMENTS = 11;
-const ANNUAL_INTEREST_RATE = 0.045 / 12;
+const ANNUAL_INTEREST_RATE_UNDER_80 = 0.045 / 12;
+const ANNUAL_INTEREST_RATE_OVER_OR_EQUAL_80 = 0.055 / 12;
 
 class FinancialProjection {
   constructor() {
@@ -134,11 +135,11 @@ class FinancialProjection {
 
   resetValues() {
     this.downPaymentPrice = 0;
-    this.downPaymentPercentage = 100;
+    this.downPaymentPercentage = 10;
     this.downPaymentPercentageRounded = 0;
 
     this.monthlyPrice = 0;
-    this.monthlyPercentage = 0;
+    this.monthlyPercentage = 10;
     this.monthlyPercentageRounded = 0;
 
     this.monthlyPaymentPrice = 0;
@@ -161,17 +162,23 @@ class FinancialProjection {
     downPaymentPercentage,
     monthlyPercentage
   ) {
-    const baseScenario = this.baseScenario(unitValue);
+    const annualInterestRate =
+      downPaymentPercentage + monthlyPercentage < 0.8
+        ? ANNUAL_INTEREST_RATE_UNDER_80
+        : ANNUAL_INTEREST_RATE_OVER_OR_EQUAL_80;
+
+    const baseScenario = this.baseScenario(unitValue, annualInterestRate);
     const chosenScenario = this.chosenScenario(
       unitValue,
       downPaymentPercentage,
-      monthlyPercentage
+      monthlyPercentage,
+      annualInterestRate
     );
 
     return (Math.abs(baseScenario - chosenScenario) / unitValue) * 100;
   }
 
-  baseScenario(unitValue) {
+  baseScenario(unitValue, annualInterestRate) {
     const downPaymentPercentage = 0.1;
     const monthlyPercentage = 0.1;
     const monthlyEquation = (unitValue * monthlyPercentage) / MONTHLY_PAYMENTS;
@@ -182,7 +189,7 @@ class FinancialProjection {
 
     for (let i = 0; i <= MONTHLY_PAYMENTS; i++) {
       monthlyInterest +=
-        ((initialBalance + finalBalance) / 2) * ANNUAL_INTEREST_RATE;
+        ((initialBalance + finalBalance) / 2) * annualInterestRate;
       initialBalance = finalBalance;
       finalBalance = initialBalance - monthlyEquation;
     }
@@ -190,7 +197,12 @@ class FinancialProjection {
     return monthlyInterest;
   }
 
-  chosenScenario(unitValue, downPaymentPercentage, monthlyPercentage) {
+  chosenScenario(
+    unitValue,
+    downPaymentPercentage,
+    monthlyPercentage,
+    annualInterestRate
+  ) {
     const monthlyDownPayment =
       (unitValue * monthlyPercentage) / MONTHLY_PAYMENTS;
 
@@ -200,7 +212,7 @@ class FinancialProjection {
 
     for (let i = 0; i <= MONTHLY_PAYMENTS; i++) {
       monthlyInterest +=
-        ((initialBalance + finalBalance) / 2) * ANNUAL_INTEREST_RATE;
+        ((initialBalance + finalBalance) / 2) * annualInterestRate;
       initialBalance = finalBalance;
       finalBalance -= monthlyDownPayment;
     }

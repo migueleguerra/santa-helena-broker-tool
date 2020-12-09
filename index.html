@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,9 @@
 
     <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
 
     <script src="data/lotes.json"></script>
     <script src="js/helpers.js"></script>
@@ -29,6 +32,19 @@
       </div>
 
       <hr />
+
+      <div class="button-container">
+        <button
+          id="btn-pdf"
+          class="button button--primary"
+          onclick="createPDF()"
+        >
+          Imprimir PDF
+        </button>
+        <button id="btn-map" class="button button--primary" onclick="showMap()">
+          Ver Mapa
+        </button>
+      </div>
 
       <div id="info" class="header-info">
         <div class="header-info__group header-info__group--left">
@@ -81,14 +97,6 @@
             ></select>
           </div>
           <div class="header-info__row">
-            <label class="header-info__label"> Área Total: </label>
-            <label
-              id="total_area"
-              class="hader-info__label header-info__label--right"
-            >
-            </label>
-          </div>
-          <div class="header-info__row">
             <label class="header-info__label"> Precio Lista: </label>
             <label
               id="price"
@@ -100,6 +108,14 @@
             <label class="header-info__label"> Precio m<sup>2</sup>: </label>
             <label
               id="m2-price"
+              class="hader-info__label header-info__label--right"
+            >
+            </label>
+          </div>
+          <div class="header-info__row">
+            <label class="header-info__label"> Área Total: </label>
+            <label
+              id="total_area"
               class="hader-info__label header-info__label--right"
             >
             </label>
@@ -310,6 +326,13 @@
             />
           </div>
         </form>
+      </div>
+    </div>
+
+    <div id="popup-map" class="popup popup__map">
+      <div class="popup__container-map">
+        <a href="#container-site" class="popup__close">&times;</a>
+        <img src="assets/map.png" alt="mapa lotes" class="popup__img" />
       </div>
     </div>
 
