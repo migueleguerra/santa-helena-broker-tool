@@ -27,6 +27,24 @@
       padding: 5rem
       width: 90%
 
+  &__container-map
+    position: relative
+    display: flex
+    justify-content: center
+    text-align: center
+    padding: 8rem 0
+
+  &__map
+    visibility: hidden
+
+  &__img
+    width: 70%
+    height: auto
+
+    @media only screen and (max-width: $bp-small)
+      width: 100%
+      height: 100%
+
   &__group
     margin-bottom: 1rem
   
@@ -62,3 +80,20 @@
     opacity: 1
     display: flex
     transform: scale(1)
+
+  &__close
+    &:link,
+    &:visited
+      color: $color-black
+      position: absolute
+      top: 3rem
+      right: 12rem
+      font-size: 5rem
+      text-decoration: none
+      display: inline-block
+      transition: all .2s
+      line-height: 1
+
+      @media only screen and (max-width: $bp-small)
+        top: 2
+        right: 0

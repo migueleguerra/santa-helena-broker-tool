@@ -25,17 +25,17 @@ document.addEventListener("DOMContentLoaded", () => {
 function onSlotChange(lote) {
   financialProjection.lote = JSON.parse(lote);
 
-  getField("total_area").innerHTML = numberToCurrency(
-    financialProjection.lote.total_area
-  );
+  getField(
+    "total_area"
+  ).innerHTML = financialProjection.lote.total_area.toFixed(2);
   getField("price").innerHTML = numberToCurrency(
     financialProjection.lote.price
   );
   getField("m2-price").innerHTML = numberToCurrency(
     financialProjection.lote.m2_price
   );
-  getField("front").innerHTML = financialProjection.lote.front;
-  getField("deep").innerHTML = financialProjection.lote.deep;
+  getField("front").innerHTML = financialProjection.lote.front.toFixed(2);
+  getField("deep").innerHTML = financialProjection.lote.deep.toFixed(2);
   getField("status").innerHTML = financialProjection.lote.status;
 
   disableFields(financialProjection.lote.status);
@@ -59,7 +59,8 @@ function disableFields(status) {
   getField("monthly-percentage").disabled = isDisabled ? true : false;
   getField("monthly-price").disabled = isDisabled ? true : false;
   getField("monthly-payments-price").disabled = isDisabled ? true : false;
-  //getField("btn-pdf").disabled = isDisabled ? true : false;
+  getField("btn-pdf").disabled = isDisabled ? true : false;
+  getField("btn-map").disabled = isDisabled ? true : false;
   getField("btn-clean").disabled = isDisabled ? true : false;
 }
 

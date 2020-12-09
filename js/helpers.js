@@ -48,16 +48,10 @@ function showSpinner(show) {
   getField("spinner").style = show ? VISIBLE : HIDDEN;
 }
 
-function editImage(edit) {
-  getField("image").style =
-    edit && getField("down-payments-table").innerHTML !== ""
-      ? "margin-top: 25rem"
-      : "margin-top: 0";
-}
-
 function hideElements(hide) {
   getField("btn-pdf").style = hide ? HIDDEN : VISIBLE;
   getField("btn-clean").style = hide ? HIDDEN : VISIBLE;
+  getField("btn-map").style = hide ? HIDDEN : VISIBLE;
 }
 
 function showTerms(show) {
