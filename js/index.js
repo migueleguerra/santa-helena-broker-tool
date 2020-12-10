@@ -89,11 +89,16 @@ function onDownPaymentPercentageBlur() {
 
 function onDownPaymentPriceBlur() {
   const downPaymentPrice = getFieldValueAsNumber("down-payment-price");
-  financialProjection.downPaymentPrice = downPaymentPrice;
-  getField("down-payment-percentage").value =
-    (100 * downPaymentPrice) / financialProjection.lote.price;
 
-  onDownPaymentPercentageBlur();
+  if (
+    Number(financialProjection.downPaymentPrice.toFixed(2)) !== downPaymentPrice
+  ) {
+    financialProjection.downPaymentPrice = downPaymentPrice;
+    getField("down-payment-percentage").value =
+      (100 * downPaymentPrice) / financialProjection.lote.price;
+
+    onDownPaymentPercentageBlur();
+  }
 }
 
 function onMonthlyPercentageBlur() {
@@ -122,19 +127,29 @@ function onMonthlyPercentageBlur() {
 }
 
 function onMonthlyPriceBlur() {
-  getField("monthly-percentage").value =
-    (100 * getFieldValueAsNumber("monthly-price")) /
-    financialProjection.lote.price;
+  const monthlyPrice = getFieldValueAsNumber("monthly-price");
 
-  onMonthlyPercentageBlur();
+  if (Number(financialProjection.monthlyPrice.toFixed(2)) !== monthlyPrice) {
+    getField("monthly-percentage").value =
+      (100 * monthlyPrice) / financialProjection.lote.price;
+
+    onMonthlyPercentageBlur();
+  }
 }
 
 function onMonthlyPaymentsPriceBlur() {
-  getField("monthly-price").value =
-    getFieldValueAsNumber("monthly-payments-price") *
-    getFieldValueAsNumber("monthly-payments");
+  const monthlyPaymentPrice = getFieldValueAsNumber("monthly-payments-price");
 
-  onMonthlyPriceBlur();
+  if (
+    Number(financialProjection.monthlyPaymentPrice.toFixed(2)) !==
+    monthlyPaymentPrice
+  ) {
+    getField("monthly-price").value =
+      getFieldValueAsNumber("monthly-payments-price") *
+      getFieldValueAsNumber("monthly-payments");
+
+    onMonthlyPriceBlur();
+  }
 }
 
 function evaluateForm() {
