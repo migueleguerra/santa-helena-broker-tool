@@ -56,7 +56,7 @@ class FinancialProjection {
           this.downPaymentPercentage / 100,
           this.monthlyPercentage / 100
         )
-      ) || 0;
+      ) + 2 || 0;
     this.discountPrice = this.getPrice(this.discountPercentage);
 
     // Enganche
