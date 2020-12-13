@@ -49,10 +49,13 @@ function disableFields(status) {
   const isDisabled =
     status === statusSold || status === bar || status === statusSeparated;
 
-  getField("status").style =
-    status === statusSold ? "color: darkred" : "color: #44392D";
-  getField("status").style =
-    status === statusSeparated ? "color: darkblue" : "color: #44392D";
+  if (status === statusSold) {
+    getField("status").style = "color: darkred";
+  } else if (status === statusSeparated) {
+    getField("status").style = "color: darkblue";
+  } else {
+    getField("status").style = "color: #44392D";
+  }
 
   getField("down-payment-percentage").disabled = isDisabled ? true : false;
   getField("down-payment-price").disabled = isDisabled ? true : false;
