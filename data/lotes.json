@@ -6,7 +6,7 @@ const lotes = [
     "total_area": 0,
     "price": 0,
     "m2_price": 0,
-    "status": "-",
+    "status": "-"
   },
   {
     "unit": "M463L02",
@@ -15,16 +15,16 @@ const lotes = [
     "total_area": 195.975,
     "price": 2453877.001,
     "m2_price": 12521.37773,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L03",
-    "front": 8.011,
-    "deep": 19.358,
-    "total_area": 153.281,
-    "price": 1827894.572,
-    "m2_price": 11925.12165,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L04",
@@ -33,7 +33,7 @@ const lotes = [
     "total_area": 149.385,
     "price": 1781434.298,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L05",
@@ -42,7 +42,7 @@ const lotes = [
     "total_area": 144.393,
     "price": 1721904.09,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L06",
@@ -51,7 +51,7 @@ const lotes = [
     "total_area": 139.502,
     "price": 1663578.32,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L07",
@@ -60,7 +60,7 @@ const lotes = [
     "total_area": 219.287,
     "price": 2533938.131,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L08",
@@ -69,7 +69,7 @@ const lotes = [
     "total_area": 248.155,
     "price": 2867517.987,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L09",
@@ -78,7 +78,7 @@ const lotes = [
     "total_area": 215.825,
     "price": 2493933.508,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L010",
@@ -87,7 +87,7 @@ const lotes = [
     "total_area": 166.735,
     "price": 1988335.158,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L011",
@@ -96,7 +96,7 @@ const lotes = [
     "total_area": 147.005,
     "price": 1753052.508,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L012",
@@ -105,7 +105,7 @@ const lotes = [
     "total_area": 148.902,
     "price": 1775674.464,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L013",
@@ -114,7 +114,7 @@ const lotes = [
     "total_area": 151.338,
     "price": 1804724.06,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L014",
@@ -123,7 +123,7 @@ const lotes = [
     "total_area": 153.262,
     "price": 1827667.994,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L015",
@@ -132,7 +132,7 @@ const lotes = [
     "total_area": 154.674,
     "price": 1844506.266,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L016",
@@ -141,7 +141,7 @@ const lotes = [
     "total_area": 155.574,
     "price": 1855238.875,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L017",
@@ -150,7 +150,7 @@ const lotes = [
     "total_area": 155.962,
     "price": 1859865.823,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L018",
@@ -159,7 +159,7 @@ const lotes = [
     "total_area": 155.838,
     "price": 1858387.108,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L019",
@@ -168,7 +168,7 @@ const lotes = [
     "total_area": 155.203,
     "price": 1850814.655,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L020",
@@ -177,7 +177,7 @@ const lotes = [
     "total_area": 154.056,
     "price": 1837136.541,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L021",
@@ -186,7 +186,7 @@ const lotes = [
     "total_area": 152.396,
     "price": 1817340.839,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L022",
@@ -195,7 +195,7 @@ const lotes = [
     "total_area": 150.225,
     "price": 1735902.519,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L023",
@@ -204,7 +204,7 @@ const lotes = [
     "total_area": 147.541,
     "price": 1704887.959,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L024",
@@ -213,7 +213,7 @@ const lotes = [
     "total_area": 144.398,
     "price": 1668569.492,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L025",
@@ -222,7 +222,7 @@ const lotes = [
     "total_area": 141.53,
     "price": 1687762.467,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L026",
@@ -231,7 +231,7 @@ const lotes = [
     "total_area": 139.257,
     "price": 1660656.666,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L027",
@@ -240,7 +240,7 @@ const lotes = [
     "total_area": 137.579,
     "price": 1729673.631,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L028",
@@ -249,7 +249,7 @@ const lotes = [
     "total_area": 136.494,
     "price": 1627707.554,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L029",
@@ -258,7 +258,7 @@ const lotes = [
     "total_area": 136.002,
     "price": 1621840.395,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L030",
@@ -267,7 +267,7 @@ const lotes = [
     "total_area": 136.104,
     "price": 1623056.757,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L032",
@@ -276,7 +276,7 @@ const lotes = [
     "total_area": 138.413,
     "price": 1740158.863,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L033",
@@ -285,7 +285,7 @@ const lotes = [
     "total_area": 147.551,
     "price": 1855043.821,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L034",
@@ -294,7 +294,7 @@ const lotes = [
     "total_area": 143.085,
     "price": 1798896.281,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L035",
@@ -303,7 +303,7 @@ const lotes = [
     "total_area": 145.513,
     "price": 1829421.634,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L036",
@@ -312,7 +312,7 @@ const lotes = [
     "total_area": 147.609,
     "price": 1855773.01,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L037",
@@ -321,7 +321,7 @@ const lotes = [
     "total_area": 148.474,
     "price": 1770570.512,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L038",
@@ -330,7 +330,7 @@ const lotes = [
     "total_area": 150.036,
     "price": 1789197.552,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L039",
@@ -339,7 +339,7 @@ const lotes = [
     "total_area": 149.93,
     "price": 1787933.489,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L040",
@@ -348,7 +348,7 @@ const lotes = [
     "total_area": 147.02,
     "price": 1753231.385,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L041",
@@ -357,7 +357,7 @@ const lotes = [
     "total_area": 140.367,
     "price": 1673893.551,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L042",
@@ -366,7 +366,7 @@ const lotes = [
     "total_area": 136.164,
     "price": 1623772.264,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L043",
@@ -375,7 +375,7 @@ const lotes = [
     "total_area": 136.22,
     "price": 1574069.836,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L045",
@@ -384,7 +384,7 @@ const lotes = [
     "total_area": 264.746,
     "price": 3059232.806,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L046",
@@ -393,7 +393,7 @@ const lotes = [
     "total_area": 250.206,
     "price": 2891218.011,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L047",
@@ -402,7 +402,7 @@ const lotes = [
     "total_area": 150.67,
     "price": 1894256.579,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L048",
@@ -411,7 +411,7 @@ const lotes = [
     "total_area": 136,
     "price": 1709822.093,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L049",
@@ -420,7 +420,7 @@ const lotes = [
     "total_area": 136.488,
     "price": 1715957.337,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L050",
@@ -429,7 +429,7 @@ const lotes = [
     "total_area": 138.92,
     "price": 1746532.979,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L051",
@@ -438,7 +438,7 @@ const lotes = [
     "total_area": 141.143,
     "price": 1774481.027,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L052",
@@ -447,7 +447,7 @@ const lotes = [
     "total_area": 143.16,
     "price": 1799839.198,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L053",
@@ -456,7 +456,7 @@ const lotes = [
     "total_area": 144.969,
     "price": 1822582.346,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L054",
@@ -465,7 +465,7 @@ const lotes = [
     "total_area": 146.571,
     "price": 1842723.044,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L055",
@@ -474,7 +474,7 @@ const lotes = [
     "total_area": 147.965,
     "price": 1860248.721,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L056",
@@ -483,7 +483,7 @@ const lotes = [
     "total_area": 149.153,
     "price": 1875184.52,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L057",
@@ -492,7 +492,7 @@ const lotes = [
     "total_area": 150.134,
     "price": 1887517.869,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L058",
@@ -501,7 +501,7 @@ const lotes = [
     "total_area": 150.907,
     "price": 1799584.333,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L059",
@@ -510,7 +510,7 @@ const lotes = [
     "total_area": 151.474,
     "price": 1806345.877,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L060",
@@ -519,7 +519,7 @@ const lotes = [
     "total_area": 151.833,
     "price": 1810626.995,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L061",
@@ -528,7 +528,7 @@ const lotes = [
     "total_area": 151.986,
     "price": 1812451.539,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L062",
@@ -537,7 +537,7 @@ const lotes = [
     "total_area": 151.931,
     "price": 1811795.657,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L063",
@@ -546,7 +546,7 @@ const lotes = [
     "total_area": 151.67,
     "price": 1752600.001,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L064",
@@ -555,7 +555,7 @@ const lotes = [
     "total_area": 151.201,
     "price": 1803090.318,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L065",
@@ -564,7 +564,7 @@ const lotes = [
     "total_area": 150.525,
     "price": 1795028.936,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L066",
@@ -573,7 +573,7 @@ const lotes = [
     "total_area": 149.643,
     "price": 1881344.908,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L068",
@@ -582,7 +582,7 @@ const lotes = [
     "total_area": 147.6,
     "price": 1760147.955,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L069",
@@ -591,7 +591,7 @@ const lotes = [
     "total_area": 146.148,
     "price": 1688791.355,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L070",
@@ -600,7 +600,7 @@ const lotes = [
     "total_area": 144.489,
     "price": 1669621.029,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L071",
@@ -609,7 +609,7 @@ const lotes = [
     "total_area": 142.622,
     "price": 1700784.7,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L072",
@@ -618,7 +618,7 @@ const lotes = [
     "total_area": 140.548,
     "price": 1767000.556,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L073",
@@ -627,7 +627,7 @@ const lotes = [
     "total_area": 138.267,
     "price": 1738323.319,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L074",
@@ -636,7 +636,7 @@ const lotes = [
     "total_area": 177.811,
     "price": 2120417.806,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L075",
@@ -645,70 +645,70 @@ const lotes = [
     "total_area": 285.782,
     "price": 3302311.158,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L076",
-    "front": 7.873,
-    "deep": 28.05,
-    "total_area": 442.191,
-    "price": 4005982.82,
-    "m2_price": 9059.394741,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L077",
-    "front": 7.976,
-    "deep": 27.069,
-    "total_area": 296.88,
-    "price": 3430552.437,
-    "m2_price": 11555.35044,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L078",
-    "front": 8.002,
-    "deep": 25.7,
-    "total_area": 204.604,
-    "price": 2364270.92,
-    "m2_price": 11555.35044,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L079",
-    "front": 8,
-    "deep": 25.86,
-    "total_area": 206.31,
-    "price": 2383984.348,
-    "m2_price": 11555.35044,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L080",
-    "front": 8,
-    "deep": 25.913,
-    "total_area": 207.162,
-    "price": 2393829.507,
-    "m2_price": 11555.35044,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L081",
-    "front": 8.002,
-    "deep": 25.913,
-    "total_area": 207.161,
-    "price": 2393817.952,
-    "m2_price": 11555.35044,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L082",
-    "front": 9.717,
-    "deep": 25.859,
-    "total_area": 250.24,
-    "price": 2891610.893,
-    "m2_price": 11555.35044,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M465L01",
@@ -717,7 +717,7 @@ const lotes = [
     "total_area": 201.993,
     "price": 2380781.898,
     "m2_price": 11786.45744,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L02",
@@ -726,7 +726,7 @@ const lotes = [
     "total_area": 137.139,
     "price": 1635399.258,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L03",
@@ -735,7 +735,7 @@ const lotes = [
     "total_area": 137.141,
     "price": 1635423.108,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L04",
@@ -744,7 +744,7 @@ const lotes = [
     "total_area": 137.141,
     "price": 1635423.108,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L05",
@@ -753,7 +753,7 @@ const lotes = [
     "total_area": 137.141,
     "price": 1635423.108,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L06",
@@ -762,7 +762,7 @@ const lotes = [
     "total_area": 137.141,
     "price": 1635423.108,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L07",
@@ -771,7 +771,7 @@ const lotes = [
     "total_area": 137.141,
     "price": 1635423.108,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L08",
@@ -780,7 +780,7 @@ const lotes = [
     "total_area": 137.141,
     "price": 1635423.108,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L09",
@@ -789,7 +789,7 @@ const lotes = [
     "total_area": 136.335,
     "price": 1625811.46,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L010",
@@ -798,7 +798,7 @@ const lotes = [
     "total_area": 136.006,
     "price": 1621888.095,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L011",
@@ -807,7 +807,7 @@ const lotes = [
     "total_area": 136.021,
     "price": 1622066.972,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L012",
@@ -816,7 +816,7 @@ const lotes = [
     "total_area": 136.043,
     "price": 1622329.325,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L013",
@@ -825,7 +825,7 @@ const lotes = [
     "total_area": 136.074,
     "price": 1622699.003,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L014",
@@ -834,7 +834,7 @@ const lotes = [
     "total_area": 136.113,
     "price": 1623164.083,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L015",
@@ -843,7 +843,7 @@ const lotes = [
     "total_area": 136.164,
     "price": 1623772.264,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L016",
@@ -852,7 +852,7 @@ const lotes = [
     "total_area": 166.842,
     "price": 2029403.369,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L017",
@@ -861,7 +861,7 @@ const lotes = [
     "total_area": 151.651,
     "price": 1944721.727,
     "m2_price": 12823.6657,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L018",
@@ -870,7 +870,7 @@ const lotes = [
     "total_area": 136.159,
     "price": 1711821.076,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L019",
@@ -879,7 +879,7 @@ const lotes = [
     "total_area": 136.11,
     "price": 1711205.038,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L020",
@@ -888,7 +888,7 @@ const lotes = [
     "total_area": 136.072,
     "price": 1622675.153,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L021",
@@ -897,7 +897,7 @@ const lotes = [
     "total_area": 136.042,
     "price": 1622317.399,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L022",
@@ -906,7 +906,7 @@ const lotes = [
     "total_area": 136.02,
     "price": 1622055.047,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L023",
@@ -915,7 +915,7 @@ const lotes = [
     "total_area": 136.006,
     "price": 1621888.095,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L024",
@@ -924,7 +924,7 @@ const lotes = [
     "total_area": 137.004,
     "price": 1633789.366,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L025",
@@ -933,7 +933,7 @@ const lotes = [
     "total_area": 139.422,
     "price": 1662624.311,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L026",
@@ -942,7 +942,7 @@ const lotes = [
     "total_area": 139.422,
     "price": 1662624.311,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L027",
@@ -951,7 +951,7 @@ const lotes = [
     "total_area": 139.422,
     "price": 1662624.311,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L028",
@@ -960,7 +960,7 @@ const lotes = [
     "total_area": 139.422,
     "price": 1662624.311,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L029",
@@ -969,7 +969,7 @@ const lotes = [
     "total_area": 139.422,
     "price": 1662624.311,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L030",
@@ -978,7 +978,7 @@ const lotes = [
     "total_area": 139.422,
     "price": 1662624.311,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L031",
@@ -987,7 +987,7 @@ const lotes = [
     "total_area": 139.421,
     "price": 1662612.385,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L032",
@@ -996,16 +996,16 @@ const lotes = [
     "total_area": 137.122,
     "price": 1635196.531,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M465L033",
-    "front": 15.681,
-    "deep": 17,
-    "total_area": 184.093,
-    "price": 2349004.619,
-    "m2_price": 12759.88016,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M464L01",
@@ -1014,7 +1014,7 @@ const lotes = [
     "total_area": 159.548,
     "price": 1940681.895,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L02",
@@ -1023,7 +1023,7 @@ const lotes = [
     "total_area": 136.004,
     "price": 1621864.245,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L03",
@@ -1032,7 +1032,7 @@ const lotes = [
     "total_area": 136.001,
     "price": 1621828.469,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L04",
@@ -1041,7 +1041,7 @@ const lotes = [
     "total_area": 136.009,
     "price": 1621923.87,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L05",
@@ -1050,7 +1050,7 @@ const lotes = [
     "total_area": 136.03,
     "price": 1622174.298,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L06",
@@ -1059,7 +1059,7 @@ const lotes = [
     "total_area": 136.063,
     "price": 1622567.827,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L07",
@@ -1068,7 +1068,7 @@ const lotes = [
     "total_area": 136.552,
     "price": 1628399.211,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L08",
@@ -1077,7 +1077,7 @@ const lotes = [
     "total_area": 137.637,
     "price": 1641337.968,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L09",
@@ -1086,7 +1086,7 @@ const lotes = [
     "total_area": 137.551,
     "price": 1640312.408,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L010",
@@ -1095,7 +1095,7 @@ const lotes = [
     "total_area": 137.437,
     "price": 1638952.944,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L011",
@@ -1104,7 +1104,7 @@ const lotes = [
     "total_area": 137.416,
     "price": 1638702.517,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L012",
@@ -1113,7 +1113,7 @@ const lotes = [
     "total_area": 137.785,
     "price": 1643102.886,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L013",
@@ -1122,34 +1122,34 @@ const lotes = [
     "total_area": 140.212,
     "price": 1672045.157,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L014",
-    "front": 9.641,
-    "deep": 17.127,
-    "total_area": 158.695,
-    "price": 1892457.18,
-    "m2_price": 11925.12165,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M464L015",
-    "front": 19.556,
-    "deep": 17.127,
-    "total_area": 215.382,
-    "price": 2538590.777,
-    "m2_price": 11786.45744,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M464L016",
-    "front": 10.024,
-    "deep": 17.086,
-    "total_area": 198.089,
-    "price": 2409480.131,
-    "m2_price": 12163.62408,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M464L017",
@@ -1158,7 +1158,7 @@ const lotes = [
     "total_area": 158.44,
     "price": 1889416.274,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L018",
@@ -1167,7 +1167,7 @@ const lotes = [
     "total_area": 138.929,
     "price": 1656745.226,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L019",
@@ -1176,7 +1176,7 @@ const lotes = [
     "total_area": 137.466,
     "price": 1639298.773,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L020",
@@ -1185,7 +1185,7 @@ const lotes = [
     "total_area": 137.457,
     "price": 1639191.447,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L021",
@@ -1194,7 +1194,7 @@ const lotes = [
     "total_area": 137.548,
     "price": 1640276.633,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L022",
@@ -1203,7 +1203,7 @@ const lotes = [
     "total_area": 137.656,
     "price": 1641564.546,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L023",
@@ -1212,7 +1212,7 @@ const lotes = [
     "total_area": 136.971,
     "price": 1633395.837,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L024",
@@ -1221,7 +1221,7 @@ const lotes = [
     "total_area": 136.077,
     "price": 1622734.779,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L025",
@@ -1230,7 +1230,7 @@ const lotes = [
     "total_area": 136.039,
     "price": 1622281.624,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L026",
@@ -1239,7 +1239,7 @@ const lotes = [
     "total_area": 136.014,
     "price": 1621983.496,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L027",
@@ -1248,7 +1248,7 @@ const lotes = [
     "total_area": 136.002,
     "price": 1621840.395,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L028",
@@ -1257,7 +1257,7 @@ const lotes = [
     "total_area": 153.003,
     "price": 1824579.388,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M464L029",
@@ -1266,7 +1266,7 @@ const lotes = [
     "total_area": 192.823,
     "price": 2345426.486,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L02",
@@ -1275,7 +1275,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1667511.225,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L03",
@@ -1284,7 +1284,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L04",
@@ -1293,7 +1293,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L05",
@@ -1302,7 +1302,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L06",
@@ -1311,7 +1311,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L07",
@@ -1320,7 +1320,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L08",
@@ -1329,7 +1329,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L09",
@@ -1338,7 +1338,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L010",
@@ -1347,7 +1347,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L011",
@@ -1356,7 +1356,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L012",
@@ -1365,7 +1365,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L013",
@@ -1374,7 +1374,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L014",
@@ -1383,7 +1383,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L015",
@@ -1392,7 +1392,7 @@ const lotes = [
     "total_area": 137.09,
     "price": 1634814.927,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L016",
@@ -1401,7 +1401,7 @@ const lotes = [
     "total_area": 137.635,
     "price": 1641314.118,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L017",
@@ -1410,7 +1410,7 @@ const lotes = [
     "total_area": 151.438,
     "price": 1842034.904,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L018",
@@ -1419,7 +1419,7 @@ const lotes = [
     "total_area": 152.728,
     "price": 1958532.815,
     "m2_price": 12823.6657,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L019",
@@ -1428,7 +1428,7 @@ const lotes = [
     "total_area": 140.901,
     "price": 1771438.55,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L020",
@@ -1437,7 +1437,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1750933.257,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L021",
@@ -1446,7 +1446,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1750933.257,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L022",
@@ -1455,7 +1455,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1750933.257,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L023",
@@ -1464,7 +1464,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1660811.692,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L024",
@@ -1473,7 +1473,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1660811.692,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L025",
@@ -1482,7 +1482,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1660811.692,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L026",
@@ -1491,7 +1491,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1660811.692,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L027",
@@ -1500,7 +1500,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1750933.257,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L028",
@@ -1509,7 +1509,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1660811.692,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L029",
@@ -1518,7 +1518,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1660811.692,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L030",
@@ -1527,7 +1527,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1660811.692,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L031",
@@ -1536,7 +1536,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1660811.692,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L032",
@@ -1545,7 +1545,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1660811.692,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M466L033",
@@ -1554,7 +1554,7 @@ const lotes = [
     "total_area": 139.27,
     "price": 1694027.926,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L01",
@@ -1563,7 +1563,7 @@ const lotes = [
     "total_area": 158.705,
     "price": 1930427.96,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L02",
@@ -1572,7 +1572,7 @@ const lotes = [
     "total_area": 136.006,
     "price": 1621888.095,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L03",
@@ -1581,7 +1581,7 @@ const lotes = [
     "total_area": 136.001,
     "price": 1621828.469,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L04",
@@ -1590,7 +1590,7 @@ const lotes = [
     "total_area": 136.009,
     "price": 1621923.87,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L05",
@@ -1599,7 +1599,7 @@ const lotes = [
     "total_area": 136.03,
     "price": 1622174.298,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L06",
@@ -1608,7 +1608,7 @@ const lotes = [
     "total_area": 136.066,
     "price": 1622603.602,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L07",
@@ -1617,7 +1617,7 @@ const lotes = [
     "total_area": 137.692,
     "price": 1641993.85,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L08",
@@ -1626,7 +1626,7 @@ const lotes = [
     "total_area": 137.845,
     "price": 1643818.394,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L09",
@@ -1635,7 +1635,7 @@ const lotes = [
     "total_area": 137.637,
     "price": 1641337.968,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L010",
@@ -1644,7 +1644,7 @@ const lotes = [
     "total_area": 137.526,
     "price": 1640014.28,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L011",
@@ -1653,7 +1653,7 @@ const lotes = [
     "total_area": 137.52,
     "price": 1728931.87,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L012",
@@ -1662,7 +1662,7 @@ const lotes = [
     "total_area": 139.162,
     "price": 1659523.779,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L013",
@@ -1671,7 +1671,7 @@ const lotes = [
     "total_area": 156.964,
     "price": 1909251.09,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L014",
@@ -1680,7 +1680,7 @@ const lotes = [
     "total_area": 166.894,
     "price": 2140192.863,
     "m2_price": 12823.6657,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L015",
@@ -1689,7 +1689,7 @@ const lotes = [
     "total_area": 137.575,
     "price": 1729623.342,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L016",
@@ -1698,7 +1698,7 @@ const lotes = [
     "total_area": 137.573,
     "price": 1729598.197,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L017",
@@ -1707,7 +1707,7 @@ const lotes = [
     "total_area": 137.679,
     "price": 1641838.824,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L018",
@@ -1716,7 +1716,7 @@ const lotes = [
     "total_area": 137.8,
     "price": 1643281.763,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L019",
@@ -1725,7 +1725,7 @@ const lotes = [
     "total_area": 136.609,
     "price": 1629078.943,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L020",
@@ -1734,7 +1734,7 @@ const lotes = [
     "total_area": 136.069,
     "price": 1622639.378,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L021",
@@ -1743,7 +1743,7 @@ const lotes = [
     "total_area": 136.032,
     "price": 1622198.148,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L022",
@@ -1752,7 +1752,7 @@ const lotes = [
     "total_area": 136.009,
     "price": 1621923.87,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L023",
@@ -1761,7 +1761,7 @@ const lotes = [
     "total_area": 136.001,
     "price": 1621828.469,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L024",
@@ -1770,7 +1770,7 @@ const lotes = [
     "total_area": 136.007,
     "price": 1621900.02,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M467L025",
@@ -1779,7 +1779,7 @@ const lotes = [
     "total_area": 141.748,
     "price": 1724169.386,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L01",
@@ -1788,7 +1788,7 @@ const lotes = [
     "total_area": 176.54,
     "price": 2147366.195,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L02",
@@ -1797,7 +1797,7 @@ const lotes = [
     "total_area": 153.182,
     "price": 1826713.984,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L03",
@@ -1806,16 +1806,16 @@ const lotes = [
     "total_area": 153.127,
     "price": 1627881.254,
     "m2_price": 10630.9224,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L04",
-    "front": 8,
-    "deep": 18.549,
-    "total_area": 195.285,
-    "price": 2328797.381,
-    "m2_price": 11925.12165,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M468L06",
@@ -1824,7 +1824,7 @@ const lotes = [
     "total_area": 188.719,
     "price": 2372617.027,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L07",
@@ -1833,7 +1833,7 @@ const lotes = [
     "total_area": 153.188,
     "price": 1925913.432,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L08",
@@ -1842,7 +1842,7 @@ const lotes = [
     "total_area": 153.132,
     "price": 1826117.728,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L09",
@@ -1851,7 +1851,7 @@ const lotes = [
     "total_area": 136.078,
     "price": 1622746.704,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L010",
@@ -1860,7 +1860,7 @@ const lotes = [
     "total_area": 136.049,
     "price": 1622400.875,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L011",
@@ -1869,7 +1869,7 @@ const lotes = [
     "total_area": 136.026,
     "price": 1622126.597,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L012",
@@ -1878,7 +1878,7 @@ const lotes = [
     "total_area": 136.011,
     "price": 1621947.721,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L013",
@@ -1887,7 +1887,7 @@ const lotes = [
     "total_area": 136.002,
     "price": 1621840.395,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L014",
@@ -1896,7 +1896,7 @@ const lotes = [
     "total_area": 136.001,
     "price": 1621828.469,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L015",
@@ -1905,7 +1905,7 @@ const lotes = [
     "total_area": 136.006,
     "price": 1621888.095,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L016",
@@ -1914,7 +1914,7 @@ const lotes = [
     "total_area": 136.019,
     "price": 1622043.122,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L017",
@@ -1923,7 +1923,7 @@ const lotes = [
     "total_area": 136.038,
     "price": 1622269.699,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L018",
@@ -1932,7 +1932,7 @@ const lotes = [
     "total_area": 136.065,
     "price": 1622591.677,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L019",
@@ -1941,7 +1941,7 @@ const lotes = [
     "total_area": 136.098,
     "price": 1622985.206,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L020",
@@ -1950,7 +1950,7 @@ const lotes = [
     "total_area": 136.139,
     "price": 1623474.136,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L021",
@@ -1959,7 +1959,7 @@ const lotes = [
     "total_area": 136.17,
     "price": 1623843.815,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L022",
@@ -1968,7 +1968,7 @@ const lotes = [
     "total_area": 136.112,
     "price": 1623152.158,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L023",
@@ -1977,7 +1977,7 @@ const lotes = [
     "total_area": 136.061,
     "price": 1622543.977,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L024",
@@ -1986,7 +1986,7 @@ const lotes = [
     "total_area": 136.025,
     "price": 1622114.672,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L025",
@@ -1995,7 +1995,7 @@ const lotes = [
     "total_area": 136.005,
     "price": 1621876.17,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L026",
@@ -2004,7 +2004,7 @@ const lotes = [
     "total_area": 136.001,
     "price": 1621828.469,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L027",
@@ -2013,7 +2013,7 @@ const lotes = [
     "total_area": 136.012,
     "price": 1621959.646,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L028",
@@ -2022,7 +2022,7 @@ const lotes = [
     "total_area": 136.039,
     "price": 1622281.624,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L029",
@@ -2031,7 +2031,7 @@ const lotes = [
     "total_area": 136.081,
     "price": 1622782.479,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L030",
@@ -2040,7 +2040,7 @@ const lotes = [
     "total_area": 145.547,
     "price": 1735665.681,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L031",
@@ -2049,7 +2049,7 @@ const lotes = [
     "total_area": 143.543,
     "price": 1711767.737,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L032",
@@ -2058,7 +2058,7 @@ const lotes = [
     "total_area": 140.613,
     "price": 1676827.13,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L033",
@@ -2067,7 +2067,7 @@ const lotes = [
     "total_area": 170.943,
     "price": 2079286.391,
     "m2_price": 12163.62408,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L034",
@@ -2076,7 +2076,7 @@ const lotes = [
     "total_area": 201.498,
     "price": 2374947.602,
     "m2_price": 11786.45744,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L035",
@@ -2085,7 +2085,7 @@ const lotes = [
     "total_area": 137.154,
     "price": 1635578.135,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L036",
@@ -2094,7 +2094,7 @@ const lotes = [
     "total_area": 139.183,
     "price": 1659774.207,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L037",
@@ -2103,7 +2103,7 @@ const lotes = [
     "total_area": 136.085,
     "price": 1622830.18,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L038",
@@ -2112,7 +2112,7 @@ const lotes = [
     "total_area": 136.041,
     "price": 1622305.474,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L039",
@@ -2121,7 +2121,7 @@ const lotes = [
     "total_area": 136.013,
     "price": 1621971.571,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L040",
@@ -2130,7 +2130,7 @@ const lotes = [
     "total_area": 136.001,
     "price": 1621828.469,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L041",
@@ -2139,7 +2139,7 @@ const lotes = [
     "total_area": 136.006,
     "price": 1621888.095,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L042",
@@ -2148,7 +2148,7 @@ const lotes = [
     "total_area": 136.027,
     "price": 1622138.523,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L043",
@@ -2157,7 +2157,7 @@ const lotes = [
     "total_area": 136.064,
     "price": 1622579.752,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L044",
@@ -2166,7 +2166,7 @@ const lotes = [
     "total_area": 136.118,
     "price": 1623223.709,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L045",
@@ -2175,7 +2175,7 @@ const lotes = [
     "total_area": 136.171,
     "price": 1573503.624,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L046",
@@ -2184,7 +2184,7 @@ const lotes = [
     "total_area": 136.134,
     "price": 1623414.511,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L047",
@@ -2193,7 +2193,7 @@ const lotes = [
     "total_area": 136.095,
     "price": 1622949.431,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L048",
@@ -2202,7 +2202,7 @@ const lotes = [
     "total_area": 136.063,
     "price": 1622567.827,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L049",
@@ -2211,7 +2211,7 @@ const lotes = [
     "total_area": 136.037,
     "price": 1622257.774,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L050",
@@ -2220,7 +2220,7 @@ const lotes = [
     "total_area": 136.018,
     "price": 1622031.196,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L051",
@@ -2229,7 +2229,7 @@ const lotes = [
     "total_area": 136.006,
     "price": 1621888.095,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L052",
@@ -2238,7 +2238,7 @@ const lotes = [
     "total_area": 136.001,
     "price": 1621828.469,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L053",
@@ -2247,7 +2247,7 @@ const lotes = [
     "total_area": 136.002,
     "price": 1621840.395,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L054",
@@ -2256,7 +2256,7 @@ const lotes = [
     "total_area": 136.01,
     "price": 1621935.796,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L055",
@@ -2265,7 +2265,7 @@ const lotes = [
     "total_area": 136.025,
     "price": 1622114.672,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L056",
@@ -2274,7 +2274,7 @@ const lotes = [
     "total_area": 136.047,
     "price": 1622377.025,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L057",
@@ -2283,7 +2283,7 @@ const lotes = [
     "total_area": 136.076,
     "price": 1622722.854,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L058",
@@ -2292,7 +2292,7 @@ const lotes = [
     "total_area": 153.128,
     "price": 1925159.099,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L059",
@@ -2301,7 +2301,7 @@ const lotes = [
     "total_area": 236.314,
     "price": 2730691.083,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L060",
@@ -2310,7 +2310,7 @@ const lotes = [
     "total_area": 177.543,
     "price": 2117221.873,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L061",
@@ -2319,7 +2319,7 @@ const lotes = [
     "total_area": 136.072,
     "price": 1622675.153,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L062",
@@ -2328,16 +2328,16 @@ const lotes = [
     "total_area": 136.107,
     "price": 1623092.532,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M468L063",
-    "front": 8.161,
-    "deep": 19.382,
-    "total_area": 211.128,
-    "price": 2488451.187,
-    "m2_price": 11786.45744,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M470L02",
@@ -2346,7 +2346,7 @@ const lotes = [
     "total_area": 162.436,
     "price": 2144290.402,
     "m2_price": 13200.83234,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L03",
@@ -2355,7 +2355,7 @@ const lotes = [
     "total_area": 145.44,
     "price": 1734389.693,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L04",
@@ -2364,7 +2364,7 @@ const lotes = [
     "total_area": 165.362,
     "price": 1971961.966,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L05",
@@ -2373,7 +2373,7 @@ const lotes = [
     "total_area": 210.452,
     "price": 2431846.61,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L06",
@@ -2382,7 +2382,7 @@ const lotes = [
     "total_area": 208.621,
     "price": 2410688.763,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L07",
@@ -2391,7 +2391,7 @@ const lotes = [
     "total_area": 163.9,
     "price": 2060587.067,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L08",
@@ -2400,7 +2400,7 @@ const lotes = [
     "total_area": 141.432,
     "price": 1778114.399,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L09",
@@ -2409,7 +2409,7 @@ const lotes = [
     "total_area": 144.076,
     "price": 1811355.352,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L010",
@@ -2418,7 +2418,7 @@ const lotes = [
     "total_area": 146.126,
     "price": 1837128.406,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L011",
@@ -2427,7 +2427,7 @@ const lotes = [
     "total_area": 147.581,
     "price": 1855420.988,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L012",
@@ -2436,7 +2436,7 @@ const lotes = [
     "total_area": 148.442,
     "price": 1866245.67,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L013",
@@ -2445,7 +2445,7 @@ const lotes = [
     "total_area": 148.71,
     "price": 1869615.026,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L014",
@@ -2454,7 +2454,7 @@ const lotes = [
     "total_area": 148.385,
     "price": 1865529.054,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L015",
@@ -2463,7 +2463,7 @@ const lotes = [
     "total_area": 147.466,
     "price": 1853975.182,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L016",
@@ -2472,52 +2472,52 @@ const lotes = [
     "total_area": 145.953,
     "price": 1834953.412,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M470L017",
-    "front": 8.006,
-    "deep": 18.125,
-    "total_area": 143.846,
-    "price": 1715381.049,
-    "m2_price": 11925.12165,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M470L018",
-    "front": 8.009,
-    "deep": 17.824,
-    "total_area": 141.144,
-    "price": 1683159.37,
-    "m2_price": 11925.12165,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M470L019",
-    "front": 8.013,
-    "deep": 17.449,
-    "total_area": 137.847,
-    "price": 1592870.391,
-    "m2_price": 11555.35044,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L095",
-    "front": 10.664,
-    "deep": 33.83,
-    "total_area": 273.507,
-    "price": 3223678.616,
-    "m2_price": 11786.45744,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L094",
-    "front": 19.162,
-    "deep": 18.673,
-    "total_area": 177.691,
-    "price": 2118986.791,
-    "m2_price": 11925.12165,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L093",
@@ -2526,43 +2526,43 @@ const lotes = [
     "total_area": 168.111,
     "price": 2004744.126,
     "m2_price": 11925.12165,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L092",
-    "front": 12.101,
-    "deep": 23.647,
-    "total_area": 234.73,
-    "price": 2766635.156,
-    "m2_price": 11786.45744,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L091",
-    "front": 8,
-    "deep": 23.891,
-    "total_area": 190.997,
-    "price": 2277662.46,
-    "m2_price": 11925.12165,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L090",
-    "front": 8,
-    "deep": 28.898,
-    "total_area": 191.026,
-    "price": 2278008.288,
-    "m2_price": 11925.12165,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L089",
-    "front": 8,
-    "deep": 23.985,
-    "total_area": 191.498,
-    "price": 2283636.946,
-    "m2_price": 11925.12165,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M463L088",
@@ -2571,7 +2571,7 @@ const lotes = [
     "total_area": 142.888,
     "price": 1832347.944,
     "m2_price": 12823.6657,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L087",
@@ -2580,7 +2580,7 @@ const lotes = [
     "total_area": 145.612,
     "price": 1830666.284,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L086",
@@ -2589,7 +2589,7 @@ const lotes = [
     "total_area": 161.493,
     "price": 2030325.73,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M463L085",
@@ -2598,7 +2598,7 @@ const lotes = [
     "total_area": 235.879,
     "price": 2725664.505,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L01",
@@ -2607,7 +2607,7 @@ const lotes = [
     "total_area": 150.092,
     "price": 1924729.632,
     "m2_price": 12823.6657,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L02",
@@ -2616,7 +2616,7 @@ const lotes = [
     "total_area": 192.725,
     "price": 2333901.148,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L03",
@@ -2625,7 +2625,7 @@ const lotes = [
     "total_area": 168.313,
     "price": 2038271.651,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L04",
@@ -2634,7 +2634,7 @@ const lotes = [
     "total_area": 157.614,
     "price": 1908706.684,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L05",
@@ -2643,7 +2643,7 @@ const lotes = [
     "total_area": 168.883,
     "price": 2045174.355,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L06",
@@ -2652,7 +2652,7 @@ const lotes = [
     "total_area": 166.797,
     "price": 2019912.88,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L07",
@@ -2661,7 +2661,7 @@ const lotes = [
     "total_area": 158.696,
     "price": 1921809.712,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L08",
@@ -2670,7 +2670,7 @@ const lotes = [
     "total_area": 168.016,
     "price": 2034674.979,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L09",
@@ -2679,7 +2679,7 @@ const lotes = [
     "total_area": 176.613,
     "price": 2138784.712,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L010",
@@ -2688,7 +2688,7 @@ const lotes = [
     "total_area": 184.487,
     "price": 2234138.909,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L011",
@@ -2697,7 +2697,7 @@ const lotes = [
     "total_area": 191.639,
     "price": 2320749.681,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L012",
@@ -2706,7 +2706,7 @@ const lotes = [
     "total_area": 198.069,
     "price": 2398617.027,
     "m2_price": 12110.00726,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L013",
@@ -2715,7 +2715,7 @@ const lotes = [
     "total_area": 321.694,
     "price": 2646708.275,
     "m2_price": 8227.40951,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L014",
@@ -2724,7 +2724,7 @@ const lotes = [
     "total_area": 153.2,
     "price": 1964585.585,
     "m2_price": 12823.6657,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L015",
@@ -2733,7 +2733,7 @@ const lotes = [
     "total_area": 149.765,
     "price": 1882878.719,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L016",
@@ -2742,7 +2742,7 @@ const lotes = [
     "total_area": 151.408,
     "price": 1903534.879,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L017",
@@ -2751,7 +2751,7 @@ const lotes = [
     "total_area": 153.258,
     "price": 1926793.488,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L018",
@@ -2760,7 +2760,7 @@ const lotes = [
     "total_area": 155.313,
     "price": 1952629.403,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L019",
@@ -2769,16 +2769,16 @@ const lotes = [
     "total_area": 157.575,
     "price": 1981067.767,
     "m2_price": 12572.22127,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L020",
-    "front": 11.505,
-    "deep": 19.847,
-    "total_area": 180.913,
-    "price": 2234674.898,
-    "m2_price": 12352.2074,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M469L021",
@@ -2787,7 +2787,7 @@ const lotes = [
     "total_area": 265.193,
     "price": 3064398.048,
     "m2_price": 11555.35044,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L022",
@@ -2796,7 +2796,7 @@ const lotes = [
     "total_area": 198.042,
     "price": 2444058.951,
     "m2_price": 12341.11426,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L023",
@@ -2805,7 +2805,7 @@ const lotes = [
     "total_area": 188.37,
     "price": 2324695.694,
     "m2_price": 12341.11426,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L024",
@@ -2814,7 +2814,7 @@ const lotes = [
     "total_area": 179.533,
     "price": 2215637.267,
     "m2_price": 12341.11426,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L025",
@@ -2823,7 +2823,7 @@ const lotes = [
     "total_area": 171.534,
     "price": 2222766.729,
     "m2_price": 12958.16998,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L026",
@@ -2832,7 +2832,7 @@ const lotes = [
     "total_area": 164.374,
     "price": 2129986.232,
     "m2_price": 12958.16998,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L027",
@@ -2841,7 +2841,7 @@ const lotes = [
     "total_area": 158.054,
     "price": 2048090.598,
     "m2_price": 12958.16998,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L028",
@@ -2850,51 +2850,51 @@ const lotes = [
     "total_area": 152.427,
     "price": 1975174.975,
     "m2_price": 12958.16998,
-    "status": "Disponible",
+    "status": "Disponible"
   },
   {
     "unit": "M469L029",
-    "front": 8.012,
-    "deep": 18.683,
-    "total_area": 145.862,
-    "price": 1890104.589,
-    "m2_price": 12958.16998,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M469L030",
-    "front": 9.003,
-    "deep": 17.742,
-    "total_area": 153.839,
-    "price": 1993471.911,
-    "m2_price": 12958.16998,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M469L031",
-    "front": 10.002,
-    "deep": 16.393,
-    "total_area": 154.955,
-    "price": 2007933.229,
-    "m2_price": 12958.16998,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M469L032",
-    "front": 11.182,
-    "deep": 14.535,
-    "total_area": 167.936,
-    "price": 2176143.233,
-    "m2_price": 12958.16998,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   },
   {
     "unit": "M469L033",
-    "front": 11.079,
-    "deep": 17,
-    "total_area": 193.716,
-    "price": 2438484.717,
-    "m2_price": 12587.93655,
-    "status": "Disponible",
+    "front": 0,
+    "deep": 0,
+    "total_area": 0,
+    "price": 0,
+    "m2_price": 0,
+    "status": "Separado"
   }
 ]
