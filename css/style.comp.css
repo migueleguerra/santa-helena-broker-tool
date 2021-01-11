@@ -49,7 +49,11 @@ button:disabled {
   #btn-pdf,
   #btn-clean,
   #btn-map {
-    display: none; } }
+    display: none; }
+  #terms-info-hidden {
+    display: flex; }
+  html {
+    font-size: 45%; } }
 
 .container {
   display: flex;
@@ -302,29 +306,3 @@ button:disabled {
       .popup__close:link, .popup__close:visited {
         top: 2;
         right: 0; } }
-
-.loading {
-  visibility: hidden;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.6); }
-  .loading__img {
-    top: 40%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    border: 0.6rem solid #253746;
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    border-top-color: #802145;
-    animation: spin .8s infinite ease-in-out; }
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }

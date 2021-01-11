@@ -43,7 +43,3 @@ function removeErrorMsg() {
 function roundDecimals(x) {
   return Number(Math.round(x + "e2") + "e-2");
 }
-
-function showSpinner(show) {
-  getField("spinner").style = show ? VISIBLE : HIDDEN;
-}
