@@ -47,15 +47,3 @@ function roundDecimals(x) {
 function showSpinner(show) {
   getField("spinner").style = show ? VISIBLE : HIDDEN;
 }
-
-function hideElements(hide) {
-  getField("btn-pdf").style = hide ? HIDDEN : VISIBLE;
-  getField("btn-clean").style = hide ? HIDDEN : VISIBLE;
-  getField("btn-map").style = hide ? HIDDEN : VISIBLE;
-}
-
-function showTerms(show) {
-  getField("terms-info-hidden").style = show
-    ? "display: flex"
-    : "display: none";
-}
