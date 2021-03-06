@@ -33,17 +33,25 @@
 
       <hr />
 
-      <div class="button-container">
-        <button
-          id="btn-pdf"
-          class="button button--primary"
-          onclick="javascript:window.print()"
-        >
-          Imprimir PDF
-        </button>
-        <button id="btn-map" class="button button--primary" onclick="showMap()">
-          Ver Mapa
-        </button>
+      <div class="action-container">
+        <div>
+          <button
+            id="btn-pdf"
+            class="button button--primary"
+            onclick="javascript:window.print()"
+          >
+            Imprimir PDF
+          </button>
+
+          <button id="btn-map" class="button button--primary" onclick="showMap()">
+            Ver Mapa
+          </button>
+        </div>
+
+        <div>
+          <input type="checkbox" id="confi" onclick="confinanciamiento()">
+          <label>Confinanciamiento</label><br>
+        </div>
       </div>
 
       <div id="info" class="header-info">
@@ -269,6 +277,11 @@
             />
           </div>
         </div>
+
+        <p id="p-confi" class="pconfig terms__p">
+          *Al esctriturar, se pagará el monto del confinanciamiento que se demuestre
+          anexo a la presente cotización.
+        </p>
       </div>
 
       <div id="terms-info-hidden" class="terms terms-hidden">

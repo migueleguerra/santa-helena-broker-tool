@@ -2,6 +2,9 @@ const MONTHLY_PAYMENTS = 8;
 const ANNUAL_INTEREST_RATE_UNDER_80 = 0.045 / 12;
 const ANNUAL_INTEREST_RATE_OVER_OR_EQUAL_80 = 0.055 / 12;
 
+let downPaymentPerc = 10;
+let monthlyPerc = 10;
+
 class FinancialProjection {
   constructor() {
     this.lote = {};
@@ -135,11 +138,11 @@ class FinancialProjection {
 
   resetValues() {
     this.downPaymentPrice = 0;
-    this.downPaymentPercentage = 10;
+    this.downPaymentPercentage = downPaymentPerc;
     this.downPaymentPercentageRounded = 0;
 
     this.monthlyPrice = 0;
-    this.monthlyPercentage = 10;
+    this.monthlyPercentage = monthlyPerc;
     this.monthlyPercentageRounded = 0;
 
     this.monthlyPaymentPrice = 0;
@@ -175,7 +178,7 @@ class FinancialProjection {
       annualInterestRate
     );
 
-    return (Math.abs(baseScenario - chosenScenario) / unitValue) * 100;
+    return ((baseScenario - chosenScenario) / unitValue) * 100;
   }
 
   baseScenario(unitValue, annualInterestRate) {

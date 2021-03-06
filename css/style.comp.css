@@ -120,13 +120,15 @@ button:disabled {
     border: 1px solid rgba(0, 0, 0, 0.2);
     width: 14rem; }
 
-.button-container {
+.action-container {
   display: flex;
-  justify-content: center;
-  width: 100%; }
-
-.button-container button:first-child {
-  margin-right: 1rem; }
+  width: 50%;
+  justify-content: space-between; }
+  @media only screen and (max-width: 62.5em) {
+    .action-container {
+      flex-direction: column;
+      text-align: center;
+      width: 100%; } }
 
 .unit-form {
   display: flex;
@@ -167,6 +169,9 @@ button:disabled {
 
 .clean-button-container {
   margin-bottom: 4rem; }
+
+.pconfig {
+  visibility: hidden; }
 
 .button {
   color: #ffffff;

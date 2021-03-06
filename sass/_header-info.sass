@@ -14,7 +14,7 @@
 
     @media only screen and (max-width: $bp-small)
       margin-left: 1rem
-  
+
   &__group--left
     margin-right: 4rem
 
@@ -25,8 +25,8 @@
     margin-bottom: .5rem
 
     @media only screen and (max-width: $bp-medium)
-        display: flex
-        flex-direction: column
+      display: flex
+      flex-direction: column
 
   &__label
     display: inline-block
@@ -42,10 +42,12 @@
     border: 1px solid rgba($color-black, .2)
     width: 14rem
 
-.button-container
+.action-container
   display: flex
-  justify-content: center
-  width: 100%
+  width: 50%
+  justify-content: space-between
 
-.button-container button:first-child
-  margin-right: 1rem
+  @media only screen and (max-width: $bp-large)
+    flex-direction: column
+    text-align: center
+    width: 100%

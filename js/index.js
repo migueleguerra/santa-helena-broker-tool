@@ -1,4 +1,4 @@
-const MIN_PERCENTAGE = 20;
+let MIN_PERCENTAGE = 20;
 
 // Used for computing numbers in the form
 let financialProjection;
@@ -72,7 +72,7 @@ function onDownPaymentPercentageBlur() {
     "down-payment-percentage"
   ).value = financialProjection.validatePercentage(
     getField("down-payment-percentage").value,
-    10,
+    downPaymentPerc,
     100
   );
 
@@ -108,7 +108,7 @@ function onMonthlyPercentageBlur() {
   getField("monthly-percentage").value = financialProjection.validatePercentage(
     getField("monthly-percentage").value,
     0,
-    90
+    100 - downPaymentPerc
   );
 
   const min =
@@ -160,4 +160,21 @@ function evaluateForm() {
     Number(getField("down-payment-percentage").value),
     Number(getField("monthly-percentage").value)
   );
+}
+
+function confinanciamiento() {
+  const checkbox = getField('confi');
+  if (checkbox.checked) {
+    downPaymentPerc = 5;
+    monthlyPerc = 0;
+    getField('p-confi').style.visibility = "visible";
+  } else {
+    downPaymentPerc = 10;
+    monthlyPerc = 10;
+    getField('p-confi').style.visibility = "hidden";
+  }
+
+  MIN_PERCENTAGE = downPaymentPerc + monthlyPerc;
+  financialProjection.resetValues();
+  financialProjection.compute();
 }
